@@ -37,16 +37,16 @@ function Checkout() {
         <div className="card-inputs">
           <h3>Enter Card Information</h3>
           <p>
-            Card Holders Name: <input type="text" />
+            Card Holders Name: <br /> <input type="text" />
           </p>
           <p>
-            Card Number: <input type="text" />
+            Card Number: <br /> <input type="text" />
           </p>
           <p>
-            Expiry Date: <input type="text" />
+            Expiry Date: <br /> <input type="text" />
           </p>
           <p>
-            CVV: <input type="text" />
+            CVV: <br /> <input type="text" />
           </p>
         </div>
         <div className="price-details">
@@ -74,27 +74,27 @@ function Checkout() {
       </div>
 
       <div className="delivery-inputs">
-        <h2>Delivery Information</h2>
+        <h2>Delivery Information</h2> 
         <p>
-          First Name: <input type="text" />
+          First Name: <br /> <input type="text" className="input-fun" />
         </p>
         <p>
-          Last Name: <input type="text" />
+          Last Name: <br /> <input type="text" className="input-fun" />
         </p>
         <p>
-          Address: <input type="text" />
+          Address: <br /> <input type="text" className="input-fun" />
         </p>
         <p>
-          City/Town: <input type="text" />
+          City/Town: <br /> <input type="text" className="input-fun" />
         </p>
         <p>
-          Zip Code: <input type="text" />
+          Zip Code: <br /> <input type="text" className="input-fun" />
         </p>
         <p>
-          Mobile Number: <input type="text" />
+          Mobile Number: <br /> <input type="text" className="input-fun" />
         </p>
         <p>
-          Email Address: <input type="text" />
+          Email Address: <br /> <input type="text" className="input-fun" />
         </p>
       </div>
     </div>

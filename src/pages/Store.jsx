@@ -53,7 +53,7 @@ const products = [
     img: image5,
     size: "M",
     description:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim ",
     price: 100,
   },
   {
@@ -79,7 +79,7 @@ const products = [
     img: image8,
     size: "XXL",
     description:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
     price: 80,
   },
   {
