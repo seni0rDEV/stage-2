@@ -1,0 +1,209 @@
+/* header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  margin: 0 10px;
+}
+.list_one {
+  margin-top: 15px !important;
+}
+.list_two {
+  margin-top: 25px !important;
+}
+
+.list_one a,
+.list_two a {
+  white-space: nowrap;
+}
+
+.list_one a,
+.list_two a,
+.cart-icon a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 30px;
+}
+
+.search-bar-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.search-icon {
+  position: absolute;
+  font-size: 20px;
+  top: 10px;
+  margin-top: 40px;
+
+  transform: translateX(-230px);
+  color: black;
+}
+.search-bar {
+  width: 500px;
+  max-width: 300px;
+  padding: 5px;
+  height: 35px;
+  margin-top: 15px !important;
+  
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+@media (max-width: 795px) {
+  .search-bar {
+    width: 500px;
+    max-width: 90px;
+  }
+}
+
+@media (max-width: 636px) {
+  .list_two {
+    
+    display: none;
+  }
+  .search-bar {
+    width: 500px;
+    max-width: 30px;
+  }
+} */
+
+
+
+/* Navbar.css */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  margin: 0 10px;
+}
+
+.list_one {
+  margin-top: 15px !important;
+}
+
+.list_two {
+  margin-top: 25px !important;
+}
+
+.list_one a,
+.list_two a {
+  white-space: nowrap;
+}
+
+.list_one a,
+.list_two a,
+.cart-icon a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 30px;
+}
+
+.search-bar-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.search-icon {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.search-bar {
+  width: 300px; /* Adjust width as needed */
+  max-width: 100%;
+  padding: 5px;
+  height: 35px;
+  margin-top: 15px !important;
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.search-bar-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-bar {
+  width: 500px;
+  max-width: 300px;
+  padding: 5px;
+  height: 35px;
+  margin-top: 15px !important;
+  
+}
+
+
+@media (max-width: 795px) {
+  .search-bar {
+    width: 500px;
+    max-width: 90px;
+  }
+}
+
+@media (max-width: 636px) {
+  .list_two {
+    
+    display: none;
+  }
+  .search-bar {
+    width: 500px;
+    max-width: 30px;
+  }
+} 
+
+

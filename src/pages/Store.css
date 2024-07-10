@@ -1,0 +1,152 @@
+.store-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px));
+  gap: 5px;
+  padding: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+   border: 1px solid #ddd;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  /* width: 200px; */
+  /* border: 1px solid #ddd; */
+  /* padding: 10px; */
+  /* border-radius: 8px; */
+  /* background-color: #fff; */
+  text-align: center;
+}
+
+.product-image {
+  width:100% ;
+  /* height: auto; */
+  /* width: 10px !important; */
+  /* width: -100px; */
+  /* column-gap: 4px; */
+  /* height: auto; */
+  /* max-width: 400px; */
+  /* max-height: 400px !important; */
+  margin-bottom: 10px;
+}
+
+.product-details h3 {
+  margin: 10px 0;
+}
+
+.buy-button {
+  padding: 10px 20px;
+  background-color: black;
+  color:white;
+  border: none;
+  /* padding: 10px 20px; */
+  /* border-radius: 5px; */
+  cursor: pointer;
+   transform: translateX(290px);
+}
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.subscribe-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  width: 300px;
+}
+.subscribe-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+.buy-button:hover {
+  background-color: #0056b3;
+}
+.store-para{
+margin-left: 65px;
+font-size: 25px;
+margin-bottom: 10px;
+}
+.pagination{
+ margin-left: 30px;
+ font-size: 25px;
+ margin-bottom: 10px;
+}
+.product-heading {
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+
+
+/* media queries  */
+
+
+@media (min-width: 768px) {
+  .store-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .store-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 1024px) {
+  .buy-button {
+    margin-left: 20px; /* Adjust as needed for larger screens */
+  }
+}
+
+/* Adjustments for medium screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .buy-button {
+    margin-left: 10px; /* Adjust as needed for medium screens */
+  }
+}
+
+/* Adjustments for small screens */
+@media (max-width: 767px) {
+  .buy-button {
+    margin-left: 0; /* No shift for small screens */
+  }
+}
+
+/* @media (min-width:1124px) and (max-width: 1544px) {
+  .buy-button {
+    margin-left: -200px;
+  }
+} */
+
+/* @media (min-width:1266px) and (max-width: 1544px){
+  .buy-button {
+    margin-left: -300px;
+  }
+} */
+
+/* @media (min-width:1122px) and  (max-width:1266px) {
+  .buy-button {
+    margin-left: -330px;
+  }
+} */
+
+
+
+.buy-button{
+  transform: translateX(10px);
+}
+
+@media(max-width:1544px) {
+
+}
+
+

@@ -1,0 +1,112 @@
+
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.payment-information, .order-summary, .delivery-information {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.payment-information h2, .order-summary h2, .delivery-information h2 {
+  margin-bottom: 10px;
+}
+
+.apply-discount, .payment-method, .card-information, .price-details {
+  margin-bottom: 20px;
+}
+
+.apply-discount p, .payment-method p, .card-information p {
+  display: flex;
+  align-items: center;
+}
+
+.apply-discount p input, .payment-method p input {
+  margin-left: 10px;
+}
+
+.order-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.order-item-image {
+  width: 50px;
+  height: 50px;
+}
+
+.order-item-details p {
+  margin: 0;
+}
+
+.pay-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+
+
+/* Styles for Enter Card Information */
+.card-inputs input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.card-inputs label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Styles for Delivery Information */
+.card-inputs input, .delivery-inputs input {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+}
+/* .delivery-inputs label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.delivery-inputs .address-input {
+  width: calc(100% - 10px);
+} */
+.card-inputs label, .delivery-inputs label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/* Additional styles */
+input[type="radio"] {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+input[type="radio"]:checked {
+  border-color: black;
+}
