@@ -10,6 +10,7 @@ import Checkout from "../pages/Checkout";
 function AppRoutes() {
   return (
     <Routes>
+      <Route path="/" element={<Store />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/checkout" element={<Checkout />} />
       {/* <Route path="/" element={<Home />} /> */}
